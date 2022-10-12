@@ -1,0 +1,34 @@
+<nav>
+            <ul>
+                <a href="default.asp"><img src="https://assets.website-files.com/61f063412698c3c0331848b0/6225831abd957d511480da22_Logo.svg" ></a>
+                <li><button class="top-sign">Sign up</button></li>
+                <li><button class="top-log">Log In</button></li>
+                <li><a href="company">For companies</a></li>
+                <li><a href="active">For job seekers</a></li>
+              </ul><hr>
+            </nav>
+
+nav ul a{
+                margin-left: 40px;
+            
+            }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    
+}
+
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
