@@ -5,14 +5,12 @@ body{
 h1{
     font-size: 50px;
     line-height: 62px;
-    font-family: 'Galano Classic', sans-serif;
     margin-top: 150px;
     margin-bottom :10px;
     margin-left: 50px;}
 p{
     font-size: 21px;
     line-height: 25px;
-    font-family: 'Arbeit', sans-serif;
     margin-left: 50px;
 }
 .Job{
@@ -255,9 +253,7 @@ a{
 }
 
 .visit{
-    float: left;
-    
-    
+    float: left;   
 }
 .Already{
     float:right ;
@@ -319,20 +315,94 @@ a{
     justify-content:space-evenly;
     border-bottom: 2px solid #dcdcdc;
 }
-.image-2{
+.container1{
     padding:80px 0px;
     display:flex;
-     }
-     .image-2.left-block{
-   
-        width: 659.6px;
-        height: 659.6px;
+}
+.container1 .left-block{
+    width: 659.6px;
+    height: 659.6px;
+}
+ .container1 .right-block{
+     width: 659.6px;
+     padding: 60px;
+     height: 659.6px;
+     padding-right: 200px;
+     float: right;
+      
     }
-    .image-3.left-block{
-   
-        width: 659.6px;
-        height: 659.6px;
+.container1 .right-block .line-1{
+     margin-right: 8px;
+     font-family: 'Galano Classic', sans-serif;
+     color: #000;
+     font-size: 13px;
+     line-height: 18px;
+     font-weight: 700;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     box-sizing: border-box;
+     padding: 20px 8px 32px 0px;
     }
-
+.container1 .right-block .line-2{
+        font-family: 'Galano Classic', sans-serif;
+        color: #000;
+        line-height: 52px;
+        font-weight: 700;
+        letter-spacing: -0.8px;
+        margin: 20px 0px 32px;
+        font-size: 40px;
+    }
+.container1 .right-block .icons{
+        margin:0px 0px 40px;
+        font-family: Arbeit, sans-serif;
+        color: #383838;
+        font-size: 16px;
+        line-height: 140%;
+    }
+.container1 .right-block .icons .grids{
+        display:flex;
+        padding-bottom: 24px;
+    }
+.container1 .right-block .icons .image{
+        margin:0px 12px 0px 0px;
+    }
+ .container1 .right-block .learn-more{
+    display:inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    border-color: #dcdcdc;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:'Arbeit', sans-serif ;
+    background-color: rgb(255,255,255);
+    }
+ .container1 .right-block .learn-more:hover{
+        border-color: #143fcd;
+        background-color: #eaebff;
+        color: #143fcd;
+        cursor: pointer;
+    
+    }
+ .container1 .right-block .sign-up-now{
+    display:inline-block;
+    padding: 8px 16px;
+    border-style: solid;
+    color:#fff;
+    background-color: #000;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:'Arbeit', sans-serif ;
+    margin-left:15px;
+    
+    }
+.container1 .right-block .sign-up-now:hover{
+        border-color: #143fcd;
+        background-color:#143fcd;
+        cursor: pointer;
+    }
     
     
